@@ -35,7 +35,7 @@ function Projects() {
         window.addEventListener('resize', updateCardsToShow);
         return () => window.removeEventListener('resize', updateCardsToShow);
     }, [])
-
+    
   return (
     <motion.div 
     initial={{ opacity: 0, x: -200 }}
