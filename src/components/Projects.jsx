@@ -3,6 +3,7 @@ import { assets, projectsData } from '../assets/assets'
 import { motion } from "motion/react"
 
 function Projects() {
+    
     const [currentIndex, setCurrentIndex] = useState(0);
     const [cardsToShow, setCardsToShow] = useState(1);
 
